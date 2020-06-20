@@ -18,55 +18,44 @@ Assignment 1
    print(fd)
 
 
-2) a=int(input('enter a'))
-   b=int(input('enter b'))
-   c=int(input('enter c'))
-   si=(a*b*c)/100
-   print('si',si)
+2) a=int(input())
+   b=int(input())
+   c=int(input())
+   si=(p*t*r)/100
+   print("the si is",si)
 
 
 3) r=int(input("radius r"))
    aoc=3.14*r*r
    print('aoc',aoc)
 
-
-
-
-
-
-
-
-
-
-5) a=int(input("a"))
+4) b=int(input())
+   h=int(input())
+   area=(0.5*b*h)
+   print("the area of triangle",area)
+   
+5) celsius=float(input())
+   fahrenhiet=(celsius*1.8)+32
+   print("the fahrenhiet is",fahrenhiet)
+   
+6) l=int(input("l"))
    b=int(input("b"))
-   area=(0.5*a)*b
-   print('area',are
-
-l=int(input("l"))
-b=int(input("b"))
-aor=l*b
-print('aor=',aor)
+   aor=l*b
+   print('aor=',aor)
 
 
+7) s=int(input())
+    peri=4*s
+    print("the perimeter is",peri)
 
-a=int(input("a"))
-pos=4*a
-print('pos=',pos)
-
-a=int(input("a"))
-cir=2*(3.14)*a
-print('cir',cir);
+8) r=int(input())
+   cf=2*3.14*r
+   print("the cf is",cf)
 
 
-a=int(input("a"))
-b=int(input("b"))
-c=a
-a=b
-b=c
-print("a",a);
-print("b",b); 
- a=int(input("a"))
-b=int(input("b"))
-area=(0.5*a)*b
-print('area',area)
+9) a=int(input())
+   b=int(input())
+   print("before swapping",a,b);
+   temp=a
+   a=b
+   print("after swapping",a,b)
